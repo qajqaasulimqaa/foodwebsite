@@ -1,0 +1,101 @@
+body{
+    background-color: #ffff;
+    font-family: "Modern Antiqua", serif;; 
+    width: 100%; 
+    overflow-x: hidden; /* Hides only horizontal scrolling */
+    overflow-y: auto;   /* Allows vertical scrolling */
+    min-height: 100vh;  /* Ensures body takes at least full screen height */
+    margin: 0;          /* Removes default browser margins */
+    padding: 0;
+}
+*{ 
+margin: 0; 
+padding: 0;
+box-sizing: border-box;
+
+     }
+.top-logo{
+    overflow: hidden;
+    background-color: black;
+    height: 100px; 
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    right: 0px; 
+   
+}
+
+.logo {
+    width: 100% ;
+    z-index: 1;
+    font-size: 50px; ;
+    color: #ffffff;
+    height: 150px; 
+    position: relative;
+    left: 750px; 
+    top: 20px; 
+}
+.navbar{
+    overflow: hidden;
+    width: 100% ;
+    border: 1px white solid ;
+    display: flex; 
+    position: absolute;
+    right: 0px; 
+    top:  100px; 
+    height: 40px;
+    background-color: rgb(22, 22, 22);
+}
+.navbar-list{
+    overflow: hidden;
+    color: #ffff; 
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, 20px); 
+    gap: 200px;
+}
+.dinna{
+    color: black;
+    font-size: 35px;
+    z-index: 3;
+    position: relative;
+    top: 250px; 
+    left: 650px; 
+}
+.video{
+    position: relative;
+    display: flex;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;   
+    width: 700px; 
+    height: 500px;
+    object-fit: cover;
+}
+
+.blocks{
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns:  repeat(3, 400px); 
+    gap: 30px; 
+    position: relative; 
+    top: 400px; 
+    width: 90%; 
+    max-width: 1200px; /* Optional: keeps grid from stretching too much */
+    margin: 0 auto; 
+}
+.greenone{
+    position: relative;
+    width: 300px; 
+    height: 400px; 
+}
+.pizzapic{
+    position: absolute;
+    width: 100%; 
+    height: 100%; 
+}
+.sandwich{
+    width: 400px; 
+    height: 400px; 
+}
+
